@@ -1,1 +1,112 @@
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+/* Style header */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 1rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+  color: #ff6347;
+}
+
+/* Style main content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+main h2 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+main p {
+  line-height: 1.5;
+}
+
+main ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+main ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Style form */
+form label {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.2rem;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #ff6347;
+}
+
+form input[type="submit"] {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+form input[type="submit"]:hover {
+  background-color: #f00;
+}
+
+/* Style footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
