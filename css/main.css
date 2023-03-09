@@ -1282,6 +1282,15 @@
   margin-right: -5px;
 }
 
+.btn-my-color {
+  background-color: #003399 !important;
+}
+
+.btn-my-color:hover {
+  background-color: #0077B5 !important;
+  box-shadow: 2px 5px 10px rgba(173, 206, 239, 0.425) !important;
+}
+
 .btn,
 .navbar .navbar-nav>a.btn {
   border-width: 2px;
@@ -7423,7 +7432,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(55, 140, 63, 0.6);
+  border: 15px solid rgba(255, 255, 255, 0.6);
   border-radius: 50%;
   height: 180px;
   width: 180px;
