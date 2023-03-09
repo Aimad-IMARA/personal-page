@@ -2754,16 +2754,16 @@ textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-  background: rgba(55, 140, 63, 0.4);
+  background: rgba(201, 140, 251, 0.4);
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #2CA8FF;
+  background: #655DBB;
 }
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-  color: #378C3F;
+  color: #3E54AC;
 }
 
 .progress-container.progress-info .progress {
@@ -7376,7 +7376,7 @@ Created using IcoMoon - icomoon.io
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2),rgba(6, 10, 251, 0.6));
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(6, 10, 251, 0.6));
   /* Standard syntax */
 }
 
