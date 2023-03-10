@@ -3014,12 +3014,13 @@ small {
 }
 
 a {
-  color: #378C3F;
+  color: #003399;
+  text-decoration: none !important;
 }
 
 a:hover,
 a:focus {
-  color: #378C3F;
+  color: #0077B5;
 }
 
 h1,
