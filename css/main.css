@@ -7603,3 +7603,10 @@ a.credit {
 .section {
   padding-bottom: 0;
 }
+
+/* Certificate apperation */
+.certificate {
+  width: 70%;
+  display: flex;
+  margin: auto;
+}
