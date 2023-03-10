@@ -7609,5 +7609,9 @@ a.credit {
   width: 65%;
   display: flex;
   margin: auto;
-  box-shadow: 5px 5px 15px #405de6;
+  box-shadow: 0px 5px 10px gray;
+}
+
+.certificate:hover {
+  box-shadow: 0px 5px 10px #003399;
 }
