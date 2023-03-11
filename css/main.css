@@ -7606,7 +7606,7 @@ a.credit {
 
 /* Certificate apperation */
 .certificate {
-  width: 65%;
+  width: 45%;
   display: flex;
   margin: auto;
   box-shadow: 0px 5px 10px gray;
